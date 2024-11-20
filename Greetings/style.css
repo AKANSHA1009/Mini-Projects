@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    margin-top: 0.8px;
+    padding: 0px;
+    background-color: rgb(229, 209, 209);
+
+}
+
+
+
+.h1 {
+    text-align: center;
+    color: rgb(158, 45, 22);
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    height: 4.5rem;
+
+}
+
+.h1 h1 {
+    font-weight: 400;
+    animation-name: move 4s infinite;
+
+}
+
+@keyframes move {
+    0%, 40%, 100% {
+        transform: translateY(0)
+    }
+
+    20% {
+        transform: translateY(-40px)
+    }
+}
+
+
+.confetti-btn {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    height: 15%;
+    width: 10%;
+    border-radius: 20%;
+    background-color: rgb(225, 17, 111);
+    color: white;
+    box-shadow: 10px 10px 20px;
+}
+
+.confetti-btn:hover {
+    background-color: white;
+    color: rgb(225, 17, 111);
+
+}
+
+.btn-wrapper canvas {
+    position: absolute;
+    top: 57%;
+    left: 40%;
+    transform: translate(-30%, -30%);
+    pointer-events: none;
+
+}
+
+div {
+    text-align: center;
+    color: rgb(176, 34, 9);
+
+}
