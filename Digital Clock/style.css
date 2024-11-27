@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+.container {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+   
+}
+
+h1{
+    color: rgb(237, 86, 86);
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: "Dancing Script", cursive;
+   font-weight: 800;
+  font-style: normal;
+  }
+
+.containerImage{
+    width: fit-content;
+    margin-right:   150px;
+  
+}
+
+.clock-container {
+  
+    text-align: center;
+}
+
+.clock {
+    font-size: 60px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #c4b8b8;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
